@@ -37,6 +37,9 @@ H3 {
     display: block;
     padding: 3px 10px 0 10px;
     justify-content: center;
+    border-radius: 4px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(236, 234, 232);
 }
 
 #email {
@@ -45,6 +48,9 @@ H3 {
     height: 25px;
     padding: 3px 10px 0 10px;
     display: block;
+    border-radius: 4px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(236, 234, 232);
 }
 
 #subject {
@@ -53,13 +59,21 @@ H3 {
     height: 25px;
     padding: 3px 10px 0 10px;
     display: block;
+    border-radius: 4px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(236, 234, 232);
 }
 
 #message {
     width: 50%;
     min-width: 250px;
+    min-height: 300px;
+    max-height: 300px;
     padding: 5px 10px 5px 10px;
     display: block;
+    border-radius: 4px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: rgb(236, 234, 232);
 }
 
 .button {
@@ -71,6 +85,7 @@ H3 {
     min-width: 110px;
     height: 25px;
     display: block;
+    border-radius: 4px;
 }
 
 @media(max-width: 768px) {
