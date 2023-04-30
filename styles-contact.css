@@ -64,7 +64,6 @@ H3 {
 
 .button {
     width: 50%;
-    align-items: start;
 }
 
 #send {
@@ -72,4 +71,13 @@ H3 {
     min-width: 110px;
     height: 25px;
     display: block;
+}
+
+@media(max-width: 768px) {
+    .button {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
